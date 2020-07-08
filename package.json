@@ -1,0 +1,12 @@
+{
+  "name": "release-the-kraken",
+  "version": "0.0.1",
+  "description": "Library to interact with the kraken.com api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HulaTime",
+  "license": "UNLICENCED",
+  "private": true
+}

@@ -3,10 +3,22 @@
   "version": "0.0.1",
   "description": "Library to interact with the kraken.com api",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "HulaTime",
   "license": "UNLICENCED",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.9.6",
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  }
 }
